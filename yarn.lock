@@ -252,6 +252,25 @@
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.0.tgz#8b63ab7f1aa5321248aad5ac890a485656dcea4d"
   integrity sha512-te5lMAWii1uEJ4FwLjzdlbw3+n0FZNOvFXHxQDKeT0dilh7HOzdMzV2TrJVUzq8ep7J4Na8OUYPRLSQkJHAlrg==
 
+"@wildcards/reason-apollo@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@wildcards/reason-apollo/-/reason-apollo-0.18.0.tgz#e7f8c4307618d103f1c82c285e95b9407d0e441f"
+  integrity sha512-Poe0di0htH+Tp60vSGx9yj5TYAXiyJ6Bvc+ekr3XhLh9hP6VxB+sV7SpYzUowNMCZ8m2kOAKcGz5XxHUsMFkFg==
+  dependencies:
+    apollo-cache-inmemory "^1.6.0"
+    apollo-client "^2.6.3"
+    apollo-link "^1.2.12"
+    apollo-link-context "^1.0.18"
+    apollo-link-error "^1.1.11"
+    apollo-link-http "^1.5.15"
+    apollo-link-ws "^1.0.18"
+    apollo-upload-client "9.1.0"
+    apollo-utilities "^1.3.2"
+    graphql "^14.0.2"
+    graphql-tag "^2.10.0"
+    react-apollo "^2.5.8"
+    subscriptions-transport-ws "^0.9.16"
+
 "@wry/context@^0.4.0":
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/@wry/context/-/context-0.4.4.tgz#e50f5fa1d6cfaabf2977d1fda5ae91717f8815f8"
@@ -1802,25 +1821,6 @@ readable-stream@~2.3.6:
     safe-buffer "~5.1.1"
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
-
-reason-apollo@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/reason-apollo/-/reason-apollo-0.18.0.tgz#cc970da88de7ac603753eed68984c8492f0665c6"
-  integrity sha512-lw+IoIZ8qoX3iGOFFK//yMVC+Xmf+OcSyKkRgbBn0uG5GomLLMLiKRgjkhUsjAqJ4b3Se7H9JFnso5nL+GFEMA==
-  dependencies:
-    apollo-cache-inmemory "^1.6.0"
-    apollo-client "^2.6.3"
-    apollo-link "^1.2.12"
-    apollo-link-context "^1.0.18"
-    apollo-link-error "^1.1.11"
-    apollo-link-http "^1.5.15"
-    apollo-link-ws "^1.0.18"
-    apollo-upload-client "9.1.0"
-    apollo-utilities "^1.3.2"
-    graphql "^14.0.2"
-    graphql-tag "^2.10.0"
-    react-apollo "^2.5.8"
-    subscriptions-transport-ws "^0.9.16"
 
 reason-react@>=0.7.0:
   version "0.7.0"

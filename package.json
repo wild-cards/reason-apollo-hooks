@@ -1,5 +1,5 @@
 {
-  "name": "reason-apollo-hooks",
+  "name": "@wildcards/reason-apollo-hooks",
   "version": "6.0.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -19,14 +19,14 @@
     "bs-platform": "^7.0.1",
     "husky": "^3.0.5",
     "lint-staged": "^9.4.0",
-    "reason-apollo": "^0.18.0",
+    "@wildcards/reason-apollo": "^0.18.0",
     "reason-react": ">=0.7.0"
   },
   "peerDependencies": {
     "@apollo/react-hooks": "^3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "reason-apollo": "^0.18.0",
+    "@wildcards/reason-apollo": "^0.18.0",
     "reason-react": ">=0.7.0"
   },
   "lint-staged": {
@@ -34,11 +34,5 @@
       "bsrefmt --in-place -w 80",
       "git add"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }
