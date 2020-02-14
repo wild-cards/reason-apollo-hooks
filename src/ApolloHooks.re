@@ -7,12 +7,6 @@ let useQuery = Query.useQuery;
 let useMutation = Mutation.useMutation;
 let useSubscription = Subscription.useSubscription;
 
-let toQueryObj = (result): ApolloClient.queryObj => {
-  "query": ApolloClient.gql(. result##query),
-  "variables": result##variables,
-};
+let toQueryObj = (result): ApolloClient.queryObj => result;
 
-let toReadQueryOptions = result => {
-  "query": ApolloClient.gql(. result##query),
-  "variables": Js.Nullable.fromOption(Some(result##variables)),
-};
+let toReadQueryOptions = result => result;
